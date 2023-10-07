@@ -1,0 +1,39 @@
+
+body{
+	background-image: url(background.jpg);
+	background-repeat: repeat-y;
+	background-position: 100%;
+	position: absolute;
+	background-size: 100%;
+}
+
+.container{
+	background-color: white;
+	width:92%;
+	height:100%;
+	margin: 10px auto;
+	box-sizing: border-box;
+	border: 2px solid gray;
+
+}
+div h1{
+	text-align: center;
+	font-weight: bold;
+}
+div h2{
+	text-align: center;
+	font-weight: bold;
+}
+li.sub-bab {
+font-weight: bold;
+}
+li.sub-materi {
+	font-weight: bold;
+}
+.gambar-tabung {
+	margin-left: 70px;
+}
+li.sub-judul {
+	font-weight: bold;
+	font-size: 18px;
+}
