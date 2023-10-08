@@ -1,21 +1,167 @@
 
-body{
-	background-image: url(background.jpg);
-	background-repeat: repeat-y;
-	background-position: 100%;
-	position: absolute;
-	background-size: 100%;
+
+
+img{
+	width: 70%;
+	margin-left: 10%;
+}
+.judul {
+	margin-left: -23px;
+}
+.judul-gambar{
+	text-align: center;
+	font-size: 70%;
+}
+.judul-1 {
+	margin: auto;
+	text-align: center;
 }
 
 .container{
 	background-color: white;
-	width:92%;
-	height:100%;
-	margin: 10px auto;
-	box-sizing: border-box;
-	border: 2px solid gray;
-
+	margin: 5% 10% 20% 10%;
 }
+
+/*
+ini css buat paralax
+*/
+.gambar-tabung{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-tabung.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-eniac{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-eniac.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+.gambar-generasi{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-generasi.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-ibm{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-ibm.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-generasi4{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-generasi4.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-pentium{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-pentium.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-tower{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-tower.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-portable{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-portable.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-note{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-note.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-palmtop{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-palmtop.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-analog{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-analog.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-hybrid{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-hybrid.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.gambar-desktop{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: .9s;
+}
+.gambar-desktop.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+
+/*
+akhir css buat paralax
+*/
+
 div h1{
 	text-align: center;
 	font-weight: bold;
